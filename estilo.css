@@ -1,10 +1,50 @@
-@charset "UTF-8";
-    
-header{
-    background-color: white;
+
+body{
+    background-color: rgb(235, 243, 240);
 }
 
-
-
-
-
+.cabecalho{
+    border: 1px solid coral;
+    height: 150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+   margin-left: 10px;
+   padding-top: 5px;
+}
+img{
+    width: 120px;
+    border-radius: 60px;
+    height: 120px;
+}
+.navegacao{
+    margin-right: 20px;
+}
+.conteudo{
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.conteudo2{
+    border: 1px solid coral;
+    padding-left: 10px;
+    padding-right: 55%;
+    margin-right: 3px;
+}
+.redes{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    border: 1px solid coral;
+    padding-left: 1%;
+    padding-right: 4%;
+}
+.final{
+    border: 1px solid coral;
+    margin-top: 3px;
+    padding-left: 500px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
